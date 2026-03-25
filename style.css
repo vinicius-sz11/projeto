@@ -51,12 +51,16 @@ body * {
 #profile img {
   text-align: center;
   padding: 0px;
+  
 }
 
 #profile img {
   display: block;
-  width: 112px;
+  width: 150px;
+  height:150px;
   margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover; /* corta a imagem para aparecer certo sem distorcer*/
 }
 /* switch*/
 
